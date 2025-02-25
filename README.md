@@ -2,9 +2,11 @@
 <p>To learn the ins/out of framework I daily use and get myself familiar on a deeper levels of the frameworks.</p>
 
 
-##Code Explanation
-Your framework is a simple reactive UI library inspired by modern frameworks like React or Vue. Here's how it works:
-1. Core Framework (framework/index.js)
+<h3>Code Explanation</h3>
+<p>Your framework is a simple reactive UI library inspired by modern frameworks like React or Vue.</p> 
+Here's how it works:
+
+<h5>1. Core Framework (framework/index.js)</h5>
 
 Uses Snabbdom for virtual DOM operations
 Implements a state management system
