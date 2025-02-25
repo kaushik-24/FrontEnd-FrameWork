@@ -11,6 +11,7 @@
     "build:docs": "vuepress build book && rm -rf ./docs && mv ./book/.vuepress/dist ./docs"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001700",
     "parcel-bundler": "^1.12.4",
     "snabbdom": "^3.6.2"
   },
