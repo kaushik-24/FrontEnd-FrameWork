@@ -8,7 +8,7 @@ Here's how it works:
 
 <h5>1. Core Framework (framework/index.js)</h5>
 
-Uses Snabbdom for virtual DOM operations
+Uses Snabbdom for virtual DOM operations<br />
 Implements a state management system
 Creates components with templates, methods, and initial state
 Updates the DOM when state changes
