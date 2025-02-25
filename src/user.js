@@ -3,15 +3,17 @@ import { onClick } from "../framework/event";
 import { createComponent } from "../framework/index";
 
 const methods = {
-  changeName: (state, firstName) => ({...state, firstName})
+  changeName1: (state, firstName) => ({...state, firstName}),
+  changeName2: (state, lastName) => ({...state, lastName}),
 };
 
-const initialState = { firstName: "Harry ", lastName: "Potter"};
+const initialState = { firstName: "click ", lastName: "me"};
 
 const template = ({firstName, lastName, methods}) =>
-  div`${onClick(() =>
-    methods.changeName("Darvin")
-  )} Hello ${firstName} ${lastName}`;
+  div`${onClick(() =>{
+    methods.changeName1("thank");
+    methods.changeName2("you!!!");
+})} Hey, ${firstName} ${lastName}`;
 
 export const User = createComponent({template, methods, initialState});
 
