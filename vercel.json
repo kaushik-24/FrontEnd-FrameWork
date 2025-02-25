@@ -1,9 +1,11 @@
 {
   "builds": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["index.html", "index.js", "styles.css", "framework/**", "src/**"]
+      }
     }
-  ],
-  "outputDirectory": "build"
+  ]
 }
