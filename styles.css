@@ -5,10 +5,10 @@ body {
   font-family: 'Orbitron', sans-serif; /* Futuristic font */
 }
 div {
-  background: linear-gradient(90deg, black, yellow); /* Subtle gradient */
+  background: linear-gradient(135deg, #0d0d0d, #8000ff 80%, #e0e0e0);
   padding: 20px;
 }
 div:hover {
   cursor: pointer;
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
