@@ -29,3 +29,12 @@ Creates a User component with state and a method to change the name<br />
 Renders a greeting with the user's name and a click handler<br/>
 
 <p>The core concept is that when a user interaction triggers a method, the state updates, which causes the component to re-render with the new state.</p>
+
+To run locally:
+```
+git clone https://github.com/kaushik-24/FrontEnd-FrameWork
+cd FrontEnd-FrameWork
+yarn && yarn install
+```
+//your package installer choice  <br />
+Also need to install snabbdom `yarn install snabbdom`
