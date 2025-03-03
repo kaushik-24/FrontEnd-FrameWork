@@ -31,7 +31,7 @@ export const createComponent= ({
           methods: mappedMethods(props)
           });
           patch(previous.template, nextNode.template);
-          previous = nextNode; //this prints "Darvin" as firstName
+          previous = nextNode;
         return state;
       }
     }),
