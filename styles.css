@@ -1,14 +1,26 @@
 body {
   margin: 0;
   padding: 0;
-  background: #0d0d0d; /* Dark cyberpunk base */
+  background: grey; /* Dark cyberpunk base */
   font-family: 'Orbitron', sans-serif; /* Futuristic font */
 }
-div {
+
+.framework {
+  display: flex; 
+  justify-content: center; 
+  align-items: end; 
+  text-align: center; 
+  margin-top:20vh;
   background: white;
   padding: 20px;
   border: 4px solid black;
 }
-div:hover {
+
+.framework:hover {
   cursor: pointer;
+}
+
+p {
+  padding:20px;
+  font-size: 24px;
 }

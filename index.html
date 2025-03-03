@@ -14,11 +14,39 @@
   </head>
 
   <body>
-    <div style="display: flex; justify-content: center; align-items: end; text-align: center; margin-top:20vh;" data-firstname="click " data-lastname="me">
+    <div class="framework">
     <div id="app">
     </div>
     </div>
-
+    <p>Here's how it works:
+      <ol>
+1. Core Framework (framework/index.js)
+      <ul>
+        <li>Uses Snabbdom for virtual DOM operations</li>
+        <li>Implements a state management system</li>
+        <li>Creates components with templates, methods, and initial state</li>
+        <li>Updates the DOM when state changes</li>
+      </ul>
+2. Element Creation (framework/element.js)
+      <ul>
+        <li>Creates virtual DOM elements using template literals</li>
+        <li>Handles event binding</li>
+        <li>Uses tagged template literals for a JSX-like syntax</li>
+      </ul>
+3. Event Handling (framework/event.js)
+      <ul>
+      <li>
+Provides a simple way to bind event handlers
+      </li>
+      </ul> 
+4. Component Example (src/user.js)
+      <ul>
+        <li>Creates a User component with state and a method to change the name</li>
+        <li>Renders a greeting with the user's name and a click handler</li>
+      </ul>
+      <br />
+      The core concept is that when a user interaction triggers a method, the state updates, which causes the component to re-render with the new state.</p>
+    </ol>
     <script type="module" src="./index.js" ></script>
   </body>
 </html>
